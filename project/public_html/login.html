@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css.css" type="text/css">
+                                   <title>login</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    
+                 <style>
+                     body{
+                         background-image: url(folder/back.jpg);
+                         background-size: cover;
+                         background-repeat: no-repeat;
+                     }
+                     h1{
+                         letter-spacing: 1rem;
+                         text-align: center;
+                         font-size: 59px;
+                         color: whitesmoke;
+                         font-family: sans-serif ;
+                         font-weight: bolder;
+                         margin-top: 3%;
+                     }
+                     label{
+                         color: rgb(230,185,22);
+                         text-align: center;
+                         font-family: sans-serif;
+                         font-style: italic;
+                     }
+                     .bt{
+                         background-color:  rgb(230,175,22);
+                         border-radius: 40px;
+                     }
+                     .col{
+                         border-radius: 40px;
+                         background-color: rgb(230,175,22);
+                     }
+                     .form-control{
+                         border-radius: 40px;
+                     }
+                     footer{
+                         margin-top: 6.7%;
+                     }
+                     .left{
+                         padding-left: 1194px;
+                     }
+                 </style>
+          
+    </head>
+    <body> 
+        <div class="image">
+         <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <a class="navbar-brand brand" href="http://localhost:8383/project/index.html"> <span class="glyphicon glyphicon-home"></span>SWASTIKA</a>
+                <div class="left">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://localhost:8383/project/login.html"> <span class="glyphicon glyphicon-log-in"></span>LOG IN</a></li>
+                        <li><a href="http://localhost:8383/project/cart.html"> <span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <h1>LOG IN</h1><br><br>
+        </div>
+            <div class="container">
+        <div class="row top_margin">
+            <div class="col-xs-4 col-xs-offset-4">
+                 
+                        <form>
+                          
+                            <div class="form-group">
+                                <label for="first_name">Name</label>
+                                <input type="text" class="form-control col" id="first_name">
+                            </div>
+                             <div class="form-group">
+                                <label for="email_id">Email</label>
+                                <input type="email" class="form-control" id="email_id" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control col" id="password" name="password">
+                            </div>
+                             <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="text" class="form-control" id="phone" name="phone" >
+                             </div><br>
+                            <button type="submit" class="btn btn-block bt" value=”registration_submit”><a>SUBMIT</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <footer>
+                  <center>
+                    Copyright © SWASTIKA. All Rights Reserved | Contact Us: +91 90000 00000
+                  </center>
+                </footer>
+       
+    </body>
+</html>

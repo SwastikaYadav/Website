@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Sep, 2019, 6:30:16 PM
+    Author     : Swastika
+*/
+.bimage{
+    background-image: url(b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    max-height: 40px;
+   
+}
+navbar-right{
+    float: right;
+}
+.glyphicon{
+    margin-right: 6px;
+}
+.glyphicon-search{
+    background-color: rgb(100,87,210);
+    height: 28px;
+    padding-top: 6px;
+    width: 35px;
+    padding-left: 10px;
+}
+.search{
+ border-radius: -10px;
+ padding: 2px;
+ border-color: whitesmoke;
+ margin-top: 10px;
+ border-top-color: whitesmoke;
+}
+.navbar-brand a{
+    font-family: monospace;
+    text-align: center;
+    display: block;
+}
+.color{
+    padding-left: 650px;
+    float: right;
+}
+li{
+    float: right;
+}
+.background{
+    padding: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(0,0,0,0.4);
+}
+.background-container{
+    letter-spacing: 1rem;
+    font-family: sans-serif monospace;
+    color: graytext;
+    text-align: center;
+    
+}
+p{
+    font-size: 21px;
+    color:whitesmoke;
+    font-stretch: expanded;
+}
+.img1{
+    background-image: url(s.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img2{
+    background-image: url(girl.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img3{
+    background-image: url(girll.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.img4{
+    background-image: url(boi.png);
+    background-size: cover;
+    height: 300px;
+}
+.img5{
+    background-image: url(m.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.img6{
+    background-image: url(boys.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img13{
+    background-image: url(sh.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img14{
+    background-image: url(shoes.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img15{
+    background-image: url(shoe.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img7{
+    background-image: url(mobb.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.img8{
+    background-image: url(mb.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.img9{
+    background-image: url(lap.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.img10{
+    background-image: url(sale.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img11{
+    background-image: url(sale1.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+.img12{
+    background-image: url(sale3.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.brand{
+    letter-spacing: 0.5rem;
+}
+marquee{
+   
+    letter-spacing: 3.5rem;
+    font-size: 140px;
+    color: whitesmoke;
+    margin-top: 77px;
+    margin-left: 90px;
+    margin-right: 45px;
+}
+.btn{
+    background-color: thistle;
+}
+.f{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+footer{
+   
+    margin-top: 1%;
+     background-color: rgba(0,0,1,0.9); 
+     color:#9d9d9d; 
+     bottom: 0;    
+     width: 100%; 
+}

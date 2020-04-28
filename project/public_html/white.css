@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Sep, 2019, 12:42:08 AM
+    Author     : Swastika
+*/
+
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    max-height: 40px;
+}
+navbar-right{
+    float: right;
+}
+.navbar-brand{
+    font-family: monospace;
+    text-align: center;
+}
+.color{
+    padding-left: 730px;
+    float: right;
+}
+.glyphicon{
+    margin-right: 6px;
+}
+.glyphicon-search{
+    background-color: whitesmoke;
+    height: 28px;
+    padding-top: 6px;
+    width: 35px;
+    padding-left: 10px;
+}
+.search{
+ border-radius: -10px;
+ padding: 2px;
+ border-color: whitesmoke;
+ margin-top: 10px;
+ border-top-color: whitesmoke;
+}
+li{
+    float: right;
+}
+.item{
+    background-color: black;
+    
+}
+.caption p{
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+}
+.row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    bottom: 0;
+    color: whitesmoke;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css.css" type="text/css">
+                                       <title>cart</title>
+            <style>  
+                body{
+                    background-image: url(folder/back.jpg);
+                    background-size: cover;
+                    color: whitesmoke;
+                }
+                h1{
+                         letter-spacing: 1rem;
+                         text-align: center;
+                         font-size: 59px;
+                         color: whitesmoke;
+                         font-family: sans-serif ;
+                         font-weight: bolder;
+                         margin-top: 3%;
+                }
+                .table{
+                    color: rgba(230,175,22,1);
+                    background-image: url(folder/back.jpg);
+                    background-size: cover;
+                    backface-visibility: visible;
+                }
+                select{
+                    background-image: url(folder/back.jpg);
+                }
+                label{
+                    padding-right: 10px;
+                    font-style: normal;
+                }
+                .color{
+                    padding-left: 1000px;
+                }
+                .btn{ 
+                    background-image: url(folder/back.jpg);
+                    color: rgb(230,175,22);
+                }
+                td th{
+                    text-align: center;
+                }
+                footer{
+                    margin-top: 21.5%;
+                }
+            </style>                           
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+          <div class="image">
+         <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <a class="navbar-brand brand" href="http://localhost:8383/project/index.html"> <span class="glyphicon glyphicon-home"></span>SWASTIKA</a>
+                <div class="color">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://localhost:8383/project/login.html"> <span class="glyphicon glyphicon-log-in"></span>LOG IN</a></li>
+                        <li><a href="http://localhost:8383/project/cart.html"> <span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1>CART</h1>
+        <div class="container">
+            <div>
+                <table class="table">
+                    <tr>
+                        <th>BRAND</th>
+                       <th>ITEM</th>
+                       <th>QUANTITY</th>
+                       <th>PAYMENT MODE</th>
+                       <th>PRICE</th>
+                       <th></th>
+                    </tr>
+                    <tr>
+                        <td>SKULT</td>
+                        <td>JOGGERS</td>
+                        <td>Qty
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </td>
+                        <td>
+                            <label><input type="checkbox">ONLINE</label><br>
+                            <label><input type="checkbox">CASH ON DELIVERY</label>
+                        </td>
+                        <td>Rs.15000</td>
+                        <td><div class="btn btn-default">CONFIRM ORDER</div></td>
+                    </tr>
+                   
+                    <tr>
+                        <td>SKULT</td>
+                        <td>JOGGERS</td>
+                        <td>Qty
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </td>
+                        <td>
+                            <label><input type="checkbox">ONLINE</label><br>
+                            <label><input type="checkbox">CASH ON DELIVERY</label>
+                        </td>
+                        <td>Rs.15000</td>
+                        <td><div class="btn btn-default">CONFIRM ORDER</div></td>
+                    </tr>
+                 </table>
+            </div>
+        </div>
+                <footer> 
+                  <center>
+                    Copyright © SWASTIKA. All Rights Reserved | Contact Us: +91 90000 00000
+                  </center>
+                </footer>
+          </div>
+    </body>
+</html>
